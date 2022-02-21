@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter6-10</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+       </table>
+
+
+       <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+       </table>
+
+
+       <table>
+           <tr>
+                <th>1</th>
+                <th scope="col">abc</th>
+                <th scope="row">def</th>
+           </tr>
+           <tr>
+                <th scope="row">2</th>
+                <td>120</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>$600</td>
+                <td>$675</td>
+                </tr>
+       </table>
+
+       <!-- Spanning column -->
+       <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+       </table>
+
+<br>
+        <!-- Spanning rows -->
+       <table>
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+       </table>
+
+
+       <br>
+       <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+        <tr>
+            <th>2nd January</th>
+            <td>285</td>
+            <td>48</td>
+        </tr>
+        <!-- additional rows as above -->
+        <tr>
+            <th>31st January</th>
+            <td>129</td>
+            <td>64</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td></td>
+            <td>7824</td>
+            <td>1241</td>
+        </tr>
+        </tfoot>
+       </table>
+
+
+
+       <!-- from -->
+    
+        <form action="https://mp3.zing.vn/">
+            <p>
+                nhac mp3
+            </p>
+        </form>
+        <!-- input -->
+        
+        <form action="https://mp3.zing.vn/">
+            <p>username:
+            <input type="text" name="username" id="" size="15" maxlength="255">
+            <button type="submit">submit</button>
+        </p>
+        </form>
+
+        <br>
+        <form action="https://mp3.zing.vn/">
+            <p>username:
+            <input type="text" name="username" id="" size="15" maxlength="255">
+            <p>password
+            <input type="password" name="password" size="15">
+            </p>
+            <button type="submit">submit</button>
+        </p>
+        </form>
+
+        <!-- textarea -->
+        <form action="http://www.example.com/comments.php">
+            <p>What did you think of this gig?</p>
+             <textarea name="comments" cols="20" rows="4">Enter
+             your comments...</textarea>
+            </form>
+
+        <br>
+
+            <!-- radio -->
+        <form action="https://mp3.zing.vn/">
+            <p>chon nhac
+             <br />
+             <input type="radio" name="genre" value="son"
+             checked="checked" /> nhac tre
+             <input type="radio" name="genre" value="son1" />
+            nhac tru tinh
+             <input type="radio" name="genre" value="son2" />
+             nhac hiphop </p>
+             <button type="submit">submit</button>
+        </form>
+
+        <br>
+
+        <form action="https://mp3.zing.vn/" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+
+
+            <!-- Div -->
+        <div id="header">
+            <img src="images/logo.gif" alt="Anish Kapoor" />
+            <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="biography.html">Biography</a></li>
+             <li><a href="works.html">Works</a></li>
+             <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <br>
+            <p>Anish Kapoor won the Turner Prize in 1991 and
+                exhibited at the <span class="gallery">Tate
+                Modern</span> gallery in London in 2003.
+            </p>
+
+ <br>
+        <iframe
+            width="500" height="500" src="http://maps.google.co.uk/maps?q=moma+new+york &amp;output=embed">
+        </iframe>   
+</form>
+</body>
+</html>
