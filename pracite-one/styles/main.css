@@ -1,0 +1,15 @@
+.content{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: flex;
+    
+}
+@font-face{
+    src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
+    font-family: Mulish;
+}
+h1{
+    color: aqua;
+     font-family: Mulish;
+}
